@@ -13,3 +13,8 @@ Brain_calc
 
 https://asciinema.org/a/uhKhegjmhKdZPVAhjzqcbraLN - win
 https://asciinema.org/a/oyYJTQrugBarOGcyx52EKitCd - defeat
+
+Brain_gcd
+
+https://asciinema.org/a/8JhRwqQlHuigYa8VyORGl5kwI - win
+https://asciinema.org/a/z7pbLxiaueq6Ug03X2JXu4s6g - defeat
