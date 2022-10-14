@@ -18,3 +18,8 @@ Brain_gcd
 
 https://asciinema.org/a/8JhRwqQlHuigYa8VyORGl5kwI - win
 https://asciinema.org/a/z7pbLxiaueq6Ug03X2JXu4s6g - defeat
+
+Brain_progression
+
+https://asciinema.org/a/5hkBUmNAWPq3yFgdUVle0baDK - win
+https://asciinema.org/a/VSMOpJxQcdGMre1bL2tOC4sI6 - defeat
