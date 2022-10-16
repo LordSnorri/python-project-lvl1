@@ -23,3 +23,8 @@ Brain_progression
 
 https://asciinema.org/a/5hkBUmNAWPq3yFgdUVle0baDK - win
 https://asciinema.org/a/VSMOpJxQcdGMre1bL2tOC4sI6 - defeat
+
+Brain_prime 
+
+https://asciinema.org/a/21r4pmueeRP4BFkVXZLHBUSWT - win
+https://asciinema.org/a/xAMwSzEwxzoeX50vFGfesva4Y - defeat
