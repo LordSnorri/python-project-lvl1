@@ -24,7 +24,7 @@ def main():
         random_number1 = random.randint(1, 100)
         random_number2 = random.randint(1, 100)
         op_symbol, op_function = random.choice(OPERATORS)
-        question = '{} {} {}'.format(random_number1, op_symbol, random_number2)
+        question = 'Question: {} {} {}'.format(random_number1, op_symbol, random_number2)
         answer = op_function(random_number1, random_number2)
 
         #print(answer)
