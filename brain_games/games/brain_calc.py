@@ -35,13 +35,13 @@ def main():
 
         if user_input == str(answer):
 
-            print('Correct!')
+            print(f'Your answer: {answer}\nCorrect!')
 
             win_count += 1
 
         elif user_input != str(answer):
 
-            print(f'Wrong!\nCorrect answer is {answer}')
+            print(f'Your answer: {user_input}\n"{user_input}" is wrong answer ;(. Correct answer was "{answer}".')
             quit()    
 
     print('Congratilations, ' + str(player_name) + '!')

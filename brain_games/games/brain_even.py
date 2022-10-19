@@ -27,13 +27,13 @@ def main():
             win_count += 1
         elif user_input == 'no' and random_number % 2 == 0:# or user_input == 'yes' and random_number % 2 != 0:  
             
-            print("'no' is wrong answer. Correct answer was 'yes'\nLet's try again")
+            print(f"'no' is wrong answer. Correct answer was 'yes'\nLet's try again, {player_name}!")
 
             quit()
 
         elif user_input == 'yes' and random_number % 2 != 0:
 
-            print("'yes' is wrong answer. Correct answer was 'no'\nLet's try again")  
+            print(f"'yes' is wrong answer. Correct answer was 'no'\nLet's try again, {player_name}!")  
 
             quit()   
 

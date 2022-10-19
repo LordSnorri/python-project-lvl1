@@ -25,12 +25,11 @@ def main():
         for i in range(1, smaller_number + 1):
             if ((random_number1 % i == 0) and (random_number2 % i == 0)):
                 gcd = i
-                #print(gcd)
 
         user_input = input()
 
         if user_input == str(gcd):
-            print('Correct!')
+            print(f'Your answer: {gcd}\nCorrect!')
             win_count += 1
 
         else:

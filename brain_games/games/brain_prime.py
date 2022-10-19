@@ -29,13 +29,13 @@ def main():
                 print('Correct')
                 win_count += 1
             elif flag == 0 and user_input == 'no':
-                print("'no' is wrong answer. Correct answer was 'yes'\nLet's try again")
+                print(f"'no' is wrong answer. Correct answer was 'yes'\nLet's try again, {player_name}!")
                 quit()
             elif flag == 1 and user_input == 'no':
                 print('Correct')
                 win_count += 1
             elif flag == 1 and user_input == 'yes':
-                print("'yes' is wrong answer. Correct answer was 'no'\nLet's try again")
+                print(f"'yes' is wrong answer. Correct answer was 'no'\nLet's try again, {player_name}!")
                 quit()
             
     print('Congratilations, ' + str(player_name) + '!')
