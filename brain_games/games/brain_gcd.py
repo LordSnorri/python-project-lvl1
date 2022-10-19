@@ -15,7 +15,7 @@ def main():
         random_number1 = random.randint(1, 100) 
         random_number2 = random.randint(1, 100)
 
-        print('Question: {} and {}'.format(random_number1,random_number2))
+        print('Question: {} {}'.format(random_number1,random_number2))
 
         if random_number1 > random_number2:
             smaller_number = random_number2
