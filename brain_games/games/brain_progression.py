@@ -41,10 +41,10 @@ def main():
             print("Your answer is : {}\nCorrect!".format(user_input))
             win_count += 1
         elif user_input != str(random_number):
-            print("Your answer is : {}\n{} is wrong answer. Correct answer was {}\nLet's try again, {}".format(user_input,user_input,random_number,player_name))
+            print("Your answer is : {}\n{} is wrong answer. Correct answer was {}\nLet's try again, {}!".format(user_input,user_input,random_number,player_name))
             quit()
 
-    print(f"Congratulations, {player_name}")
+    print(f"Congratulations, {player_name}!")
 
     
 
