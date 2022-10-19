@@ -16,7 +16,7 @@ def main():
 
         random_number = random.randint(1, 100)
 
-        print('Question: is ' + str(random_number) + ' even?')
+        print(f'Question: {random_number}')
 
         user_input = input()        
 
