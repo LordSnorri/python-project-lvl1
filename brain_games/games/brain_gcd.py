@@ -4,6 +4,7 @@ import random
 
 player_name = brain_games.cli.welcome_user()
 
+
 def main():
 
     win_count = 0
@@ -12,14 +13,14 @@ def main():
 
     while win_count < 3:
 
-        random_number1 = random.randint(1, 100) 
+        random_number1 = random.randint(1, 100)
         random_number2 = random.randint(1, 100)
 
-        print('Question: {} {}'.format(random_number1,random_number2))
+        print('Question: {} {}'.format(random_number1, random_number2))
 
         if random_number1 > random_number2:
             smaller_number = random_number2
-        else: 
+        else:
             smaller_number = random_number1
 
         for i in range(1, smaller_number + 1):
@@ -33,11 +34,8 @@ def main():
             win_count += 1
 
         else:
-            print("{} is wrong answer. Correct answer was {}\nLet's try again, {}!".format(user_input, gcd, player_name))
+            print(f"{user_input} is wrong answer. Correct answer was {gcd}")
+            print(f"Let's try again, {player_name}!")
             quit()
-        
+
     print('Congratulations, {}!'.format(str(player_name)))
-
-        
-
-
