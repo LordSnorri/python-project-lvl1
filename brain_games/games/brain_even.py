@@ -11,31 +11,29 @@ def main():
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
-
     while win_count < 3:
 
-        random_number = random.randint(1, 100)
+        num = random.randint(1, 100)
 
-        print(f'Question: {random_number}')
+        print(f'Question: {num}')
 
-        user_input = input()        
+        u_key = input()
 
-        if user_input == 'yes' and random_number % 2 == 0 or user_input == 'no' and random_number % 2 != 0:
-            
+        if u_key == 'yes' and num % 2 == 0 or u_key == 'no' and num % 2 != 0:
+
             print('Correct!')
-            
-            win_count += 1
-        elif user_input == 'no' and random_number % 2 == 0:# or user_input == 'yes' and random_number % 2 != 0:  
-            
-            print(f"'no' is wrong answer. Correct answer was 'yes'\nLet's try again, {player_name}!")
 
+            win_count += 1
+        elif u_key == 'no' and num % 2 == 0:
+
+            print("'no' is wrong answer. Correct answer was 'yes'.")
+            print(f"Let's try again, {player_name}!")
             quit()
 
-        elif user_input == 'yes' and random_number % 2 != 0:
+        elif u_key == 'yes' and num % 2 != 0:
 
-            print(f"'yes' is wrong answer. Correct answer was 'no'\nLet's try again, {player_name}!")  
-
-            quit()   
-
+            print("'yes' is wrong answer. Correct answer was 'no'.")
+            print(f"Let's try again, {player_name}!")
+            quit()
 
     print('Congratulations, ' + str(player_name) + '!')
