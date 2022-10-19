@@ -6,7 +6,7 @@ player_name = brain_games.cli.welcome_user()
 
 def main():
 
-    print('Answer "yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     win_count = 0
 
