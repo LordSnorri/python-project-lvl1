@@ -44,6 +44,6 @@ def main():
             print(f'Your answer: {user_input}\n"{user_input}" is wrong answer ;(. Correct answer was "{answer}".')
             quit()    
 
-    print('Congratilations, ' + str(player_name) + '!')
+    print('Congratulations, ' + str(player_name) + '!')
 
     
