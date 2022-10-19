@@ -12,39 +12,34 @@ def main():
 
     print("What is the result of the expression?")
 
-
     while win_count < 3:
 
         OPERATORS = [
             ('+', operator.add),
             ('-', operator.sub),
             ('*', operator.mul)
-            ]
- 
+        ]
+
         random_number1 = random.randint(1, 100)
         random_number2 = random.randint(1, 100)
         op_symbol, op_function = random.choice(OPERATORS)
-        question = 'Question: {} {} {}'.format(random_number1, op_symbol, random_number2)
-        answer = op_function(random_number1, random_number2)
-
-        #print(answer)
+        question = f'Question: {random_number1} {op_symbol} {random_number2}'
+        ans = op_function(random_number1, random_number2)
 
         print(question)
 
-        user_input = input()
+        u_key = input()
 
-        if user_input == str(answer):
+        if u_key == str(ans):
 
-            print(f'Your answer: {answer}\nCorrect!')
+            print(f'Your answer: {ans}\nCorrect!')
 
             win_count += 1
 
-        elif user_input != str(answer):
+        elif u_key != str(ans):
 
-            print(f'Your answer: {user_input}\n"{user_input}" is wrong answer ;(. Correct answer was "{answer}".')
+            print(f'Your answer: {u_key}')
+            print(f'"{u_key}" is wrong ans ;(. Correct answer was "{ans}".')
             print(f"Let's try again, {player_name}!")
-            quit()    
-
+            quit()
     print('Congratulations, ' + str(player_name) + '!')
-
-    
