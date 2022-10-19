@@ -38,7 +38,7 @@ def main():
                 print(f"'yes' is wrong answer. Correct answer was 'no'\nLet's try again, {player_name}!")
                 quit()
             
-    print('Congratilations, ' + str(player_name) + '!')
+    print('Congratulations, ' + str(player_name) + '!')
 
 
 
