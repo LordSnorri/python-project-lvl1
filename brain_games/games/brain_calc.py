@@ -42,6 +42,7 @@ def main():
         elif user_input != str(answer):
 
             print(f'Your answer: {user_input}\n"{user_input}" is wrong answer ;(. Correct answer was "{answer}".')
+            print(f"Let's try again, {player_name}!")
             quit()    
 
     print('Congratulations, ' + str(player_name) + '!')
